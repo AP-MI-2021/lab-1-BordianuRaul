@@ -3,8 +3,20 @@ Returneaza true daca n este prim si false daca nu.
 '''
 def is_prime(n):
   # codul vostru aici
-  
-  
+
+  n=int(input("Introdu numarul: "))
+
+  prim= true
+  for i in range(2, n/2):
+
+      if (n % i) == 0:
+        prim= false
+        break;
+
+  return prim
+
+
+
 '''
 Returneaza produsul numerelor din lista lst.
 '''
@@ -17,7 +29,9 @@ Returneaza CMMDC a doua numere x si y folosind primul algoritm.
 '''
 def get_cmmdc_v1(x, y):
   # codul vostru aici
-  
+
+
+  # comentariu
   
 '''
 Returneaza CMMDC a doua numere x si y folosind al doilea algoritm.
